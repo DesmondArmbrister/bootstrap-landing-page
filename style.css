@@ -1,0 +1,61 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: rgba(0, 128, 0, 0.3);
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  .navbar {
+    background-color: #fff;
+  }
+
+  #logo {
+    color: #4aa31e;
+    font-family: "Cinzel Decorative";
+  }
+
+  .item h3 {
+    font-size: 5em;
+  }
+
+  .well p {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .services {
+    list-style-type: none;
+    text-align: left;
+  }
+
+.header-links {
+  color: black;
+  font-weight: bold;
+}
+
+.header-links:hover {
+  color: #4aa31e;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+}
